@@ -7,14 +7,14 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "𝙵𝙰𝚁𝙷𝙰𝙽-𝙱𝙾𝚃",
+  "BOTNAME": "sagor-𝙱𝙾𝚃",
   "PREFIX": "/",
   "OPERATOR": [
-    "100069926588234"
+    "100048281103451"
   ],
   "ADMINBOT": [
-    "100069926588234",
-    "100089974857944"
+    "100048281103451",
+    ""
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
