@@ -1,5 +1,5 @@
 module.exports.config = {
-    name: "sagorlove",
+    name: "svb",
   prefix: true,
     version: "1.0.0",
     permssion: 2,
