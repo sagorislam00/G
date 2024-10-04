@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "join",
+  name: "jointi",
   eventType: ["log:subscribe"],
   version: "1.0.1",
   credits: "Islamick Chat",
