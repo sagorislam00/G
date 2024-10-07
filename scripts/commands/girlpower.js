@@ -27,7 +27,7 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
   const content = event.body ? event.body : '';
     const body = content.toLowerCase();
-  if (body.startsWith("🥱")) {
+  if (body.startsWith("pompom")) {
     const rahad = [
       "•┄┅════❁🌺❁════┅┄•\n \n __তার পেশা টা আমার কাছে ভালো লাগলো-!!✌️🙈\n\n•┄┅════❁🌺❁════┅┄•",
       "•┄┅════❁🌺❁════┅┄•\n\n  __তার পেশা টা আমার কাছে ভালো লাগলো-!!✌️🙈\n\n•┄┅════❁🌺❁════┅┄•"
@@ -50,7 +50,7 @@ module.exports.languages = {
   "vi": {
     "on": "Dùng sai cách rồi lêu lêu",
     "off": "sv ngu, đã bão dùng sai cách",
-    "successText": `🧠`,
+    "successText": `🥱`,
   },
   "en": {
     "on": "on",
@@ -66,5 +66,5 @@ module.exports.run = async ({ api, event, Threads, getText }) => {
   else data["দুদু"] = true;
   await Threads.setData(threadID, { data });
   global.data.threadData.set(threadID, data);
-  api.sendMessage(`${(data["🥱"]) ? getText("off") : getText("on")} ${getText("successText")}`, threadID, messageID);
+  api.sendMessage(`${(data["😆"]) ? getText("off") : getText("on")} ${getText("successText")}`, threadID, messageID);
 };
