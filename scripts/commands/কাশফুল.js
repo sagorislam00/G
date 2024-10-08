@@ -8,14 +8,14 @@ const link = [
 ];
 
 module.exports.config = {
-  name: "কাশফুল",
+  name: "kasfull",
   version: "1.0.0",
   permssion: 0,
   credits: "SaGor",
   prefix:true,
   description: "auto reply to pompom",
   category: "noprefix",
-  usages: "কাশফুল",
+  usages: "kasfull",
   cooldowns: 5,
   dependencies: {
     "request":"",
@@ -27,7 +27,7 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
   const content = event.body ? event.body : '';
     const body = content.toLowerCase();
-  if (body.startsWith("pompom")) {
+  if (body.startsWith("kasfull")) {
     const rahad = [
       "•┄┅════❁🌺❁════┅┄•\n \n __কাশফুল দেখতে আর যাবি -!!✌️🙈\n\n•┄┅════❁🌺❁════┅┄•",
       "•┄┅════❁🌺❁════┅┄•\n\n  __কাশফুল দেখতে আর যাবি-!!✌️🙈\n\n•┄┅════❁🌺❁════┅┄•"
