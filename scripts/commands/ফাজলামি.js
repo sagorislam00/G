@@ -8,14 +8,14 @@ const link = [
 ];
 
 module.exports.config = {
-  name: "ফাজলামি",
+  name: "fazlami",
   version: "1.0.0",
   permssion: 0,
   credits: "Islamick Cyber Chat",
   prefix:true,
   description: "auto reply to pompom",
   category: "noprefix",
-  usages: "ফাজলামি",
+  usages: "fazlami",
   cooldowns: 5,
   dependencies: {
     "request":"",
@@ -27,7 +27,7 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
   const content = event.body ? event.body : '';
     const body = content.toLowerCase();
-  if (body.startsWith("pompom")) {
+  if (body.startsWith("fazlami")) {
     const rahad = [
       "•┄┅════❁🌺❁════┅┄•\n \n __তার পেশা টা আমার কাছে ভালো লাগলো-!!✌️🙈\n\n•┄┅════❁🌺❁════┅┄•",
       "•┄┅════❁🌺❁════┅┄•\n\n  __তার পেশা টা আমার কাছে ভালো লাগলো-!!✌️🙈\n\n•┄┅════❁🌺❁════┅┄•"
