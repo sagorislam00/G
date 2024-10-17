@@ -1,7 +1,7 @@
 {
   "login": {
-    "email": "xaximop146@adosnan.com",
-    "password": "082098"
+    "email": "email",
+    "password": "password"
   },
   "loginoptions": {
     "selfListen": false,
@@ -21,7 +21,7 @@
   "allowInbox": false,
   "adminOnly": false,
   "autoCreateDB": true,
-  "encryptSt": false,
+  "encryptSt": true,
   "version": "4.0.0",
   "logs": {
     "enable": true
