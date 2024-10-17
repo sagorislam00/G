@@ -7,8 +7,8 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "SaGor🤷‍♂️🫡B𝙾T24",
-  "PREFIX": "*",
+  "BOTNAME": "SaGor🤷‍♂️B𝙾T24",
+  "PREFIX": "/",
   "OPERATOR": [
     "100048281103451"
   ],
