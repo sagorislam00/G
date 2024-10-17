@@ -6,7 +6,7 @@
   "language": "en",
   "notification": false,
   "approval": false,
-  "saveState": true,
+  "saveState": false,
   "BOTNAME": "SaGor🤷‍♂️B𝙾T24",
   "PREFIX": "/",
   "OPERATOR": [
