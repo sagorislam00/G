@@ -40,4 +40,4 @@ module.exports = function ({ api, models, Users, Threads, Currencies }) {
             }
         }
     };
-};
+}
